@@ -17,13 +17,6 @@ h1{
     font-style: italic;
 }
 
-.story{
-    /* this is where paragraphs are styled */
-    /* color:pink;
-    font-family: 'Arial narrow';
-}
-
-
 /* mobile rules */
 @media(orientation:portrait) {
     #content {
