@@ -12,9 +12,8 @@ h1{
     font-family:"Franklin Gothic Medium", "Arial Narrow", "Arial", "sans-serif";
 }
 
-.image{
+#image text{
     font-size: 0.8em;
-    font-style: italic;
 }
 
 /* mobile rules */
