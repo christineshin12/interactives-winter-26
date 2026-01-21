@@ -1,0 +1,31 @@
+h1{
+    color:purple;
+    font-size: 3em;
+}
+
+#content {
+    width:50%;
+    margin:auto;
+}
+
+#byline {
+    font-family:"Franklin Gothic Medium", "Arial Narrow", "Arial", "sans-serif";
+}
+
+
+.story{
+    /* this is where paragraphs are styled */
+    /* color:pink;
+    font-family: 'Arial narrow';
+}
+
+
+/* mobile rules */
+@media(orientation:portrait) {
+    #content {
+        width: 100%;
+    }
+    body {
+        font-size: 1em;
+    }
+}
