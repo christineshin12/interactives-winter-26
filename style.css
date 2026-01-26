@@ -1,17 +1,22 @@
+/* heading color and size */
 h1{
     color:purple;
     font-size: 3em;
 }
 
+/* whole story margin and width */
 #content {
     width:50%;
     margin:auto;
 }
 
+/* byline size and spacing */
 #byline {
     font-family:"Franklin Gothic Medium", "Arial Narrow", "Arial", "sans-serif";
+    margin-bottom: 40px;
 }
 
+/* image source size */
 #image text{
     font-size: 0.8em;
 }
