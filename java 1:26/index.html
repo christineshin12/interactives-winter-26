@@ -1,0 +1,206 @@
+<html>
+<head>
+  <link href="style.css"
+	type="text/css"
+  rel="stylesheet"/>
+  <title>Restaurant Filter</title>
+</head>
+<body>
+  <button onclick="filter('all')">All</button>
+  <button onclick="filter('italian')">Italian</button>
+  <button onclick="filter('sushi')">Sushi</button>
+  <button onclick="filter('steak')">Steak</button>
+  <button onclick="filter('indian')">Indian</button>
+  <button onclick="filter('french')">French</button>
+  <button onclick="filter('tapas')">Tapas</button>
+  <button onclick="filter('mexican')">Mexican</button>
+  <button onclick="filter('seafood')">Seafood</button>
+
+  <!--made container for flex box-->
+  <div class="container">
+
+  <!--restaurant names/links + images-->
+  <div class="item italian"><a href="https://www.allavitachicago.com/">Alla Vita</a>
+    <img src="alla vita.jpg" width="100%">
+    <!--toggle w/ location and prices -->
+    <details>     
+      <summary>West Loop</summary>     
+      $30 Lunch, $60 Dinner </details>
+  </div>
+
+  <div class="item italian"><a href="https://www.treditarestaurant.com/events/chicago-restaurant-week/">Tre Dita</a>
+    <img src="tre dita.jpg" width="100%">
+    <details>     
+    <summary>Loop</summary>     
+    $60 Dinner </details>
+  </div>
+
+  <div class="item italian"><a href="https://www.adalinachicago.com/event/chicago-restaurant-week-1/">Adalina</a>
+    <img src="adalina.jpg" width="100%">
+    <details>     
+    <summary>River North</summary>     
+    $60 Dinner </details>
+  </div>
+
+  <div class="item sushi"><a href="https://www.mirurestaurant.com/events/chicago-restaurant-week/">Miru</a>
+    <img src="miru.jpg" width="100%">
+    <details>     
+    <summary>Loop</summary>     
+    $30 Lunch $60 Dinner </details>
+  </div>
+
+  <div class="item sushi"><a href="https://www.sushisanrestaurant.com/lincoln-park/">Sushi-San</a>
+    <img src="sushi san.jpg" width="100%">
+    <details>     
+    <summary>Lincoln Park, River North</summary>     
+    $30 Lunch $45 Dinner </details>
+  </div>
+
+  <div class="item sushi"><a href="http://itokochicago.com/happenings">Itoko</a>
+    <img src="itoko.jpeg" width="100%">
+    <details>     
+    <summary>Lakeview</summary>     
+    $30 Brunch $30 Lunch $45 Dinner </details>
+  </div>
+  
+  <div class="item steak"><a href="https://www.nisosprime.com/menus/chicago-restaurant-week-nisos-prime">Nisos Prime</a>
+    <img src="nisos prime.avif" width="100%">
+    <details>     
+    <summary>West Loop</summary>     
+    $45 Dinner $60 Dinner </details>
+  </div>
+
+  <div class="item steak"><a href="https://www.perillachicago.com/menu/crw-2026-fare/">Perilla</a>
+    <img src="perilla.jpeg" width="100%">
+    <details>     
+    <summary>Loop</summary>     
+    $30 Brunch $30 Lunch $60 Dinner </details>
+  </div>
+
+  <div class="item steak"><a href="https://www.trinochicago.com/">Trino</a>
+    <img src="trino.jpeg" width="100%">
+    <details>     
+    <summary>West Loop</summary>     
+    $60 Dinner </details>
+  </div>
+
+  <div class="item indian"><a href="https://www.kamabistro.com/chicago-restaurant-week-2026">Kama</a>
+    <img src="kama.webp" width="100%">
+    <details>     
+    <summary>Bucktown/Wicker Park</summary>     
+    $30 Lunch $45 Dinner </details>
+  </div>
+
+  <div class="item indian"><a href="https://www.naduchicago.com/">Nadu</a>
+    <img src="nadu.jpg" width="100%">
+    <details>     
+    <summary>Lincoln Park</summary>     
+    $45 Dinner </details>  
+  </div>
+
+  <div class="item indian"><a href="https://www.roopchicago.com/">Roop Chicago</a>
+    <img src="roop.avif" width="100%">
+    <details>     
+    <summary>West Loop</summary>     
+    $30 Lunch $60 Dinner </details>  
+  </div>
+
+  <div class="item french"><a href="https://www.bistronomic.net/restaurant-week-2026-celebrating-bistronomics-15th-birthday">Bistronomic</a>
+    <img src="bistronomic.avif" width="100%"> 
+    <details>     
+    <summary>Gold Coast</summary>     
+    $30 Brunch $30 Lunch $45 Dinner $60 Dinner </details>  
+  </div>
+
+  <div class="item french"><a href="https://www.dinelaserre.com/">La Serre</a>
+    <img src="la serre.webp" width="100%">
+    <details>     
+    <summary>West Loop</summary>     
+    $60 Dinner </details> 
+  </div>
+
+  <div class="item french"><a href="https://www.sofitel-chicago.com/dining/cda/">CDA</a>
+    <img src="CDA.jpg" width="100%">
+    <details>     
+    <summary>Gold Coast</summary>     
+    $30 Lunch </details> 
+  </div>
+
+  <div class="item tapas"><a href="https://boqueriarestaurant.com/location/chi-fulton-market/?utm_source=google&utm_medium=cpcsearch&utm_campaign=pmax-chicago&utm_content=&utm_term=&hsa_acc=6018442374&hsa_cam=19755991430&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=21189212625&gbraid=0AAAAAC5Rz_0jiUtfN5_0tYZJcPXAzZSch&gclid=Cj0KCQiAhOfLBhCCARIsAJPiopOMb3Mu7Bjxr3Dd-HpaG95WUSxv0BsB6PdXbzYrzt58E_3iN6fuEVMaAsZ8EALw_wcB">Boqueria</a>
+    <img src="boqueria.jpeg" width="100%">
+    <details>     
+    <summary>West Loop</summary>     
+    $30 Lunch $60 Dinner </details> 
+  </div>
+
+  <div class="item tapas"><a href="https://www.thebazaar.com/location/bar-mar-chicago/">Bar Mar</a>
+      <img src="bar mar.jpg" width="100%">
+      <details>     
+    <summary>Loop</summary>     
+    $30 Lunch </details> 
+  </div>
+
+  <div class="item tapas"><a href="https://www.cafebabareeba.com/">Cafe Ba-Ba-Reeba!</a>
+      <img src="cafe baba.jpg" width="100%">
+      <details>     
+      <summary>Lincoln Park</summary>     
+    $30 Brunch $45 Dinner </details> 
+  </div>
+
+  <div class="item mexican"><a href="https://www.lajosie.com/">La Josie</a>
+      <img src="la josie.webp" width="100%">
+      <details>     
+      <summary>West Loop</summary>     
+    $30 Brunch $30 Lunch $45 Dinner </details> 
+  </div>
+
+  <div class="item mexican"><a href="https://www.diegochicago.com/">Diego</a>
+    <img src="diego.jpg" width="100%">
+    <details>     
+    <summary>West Town</summary>     
+    $45 Dinner </details> 
+  </div>
+
+  <div class="item mexican"><a href="https://www.tzuco.com/">TZUCO</a>
+    <img src="tzuco.jpg" width="100%">
+    <details>     
+    <summary>River North</summary>     
+    $30 Brunch $60 Dinner </details> 
+  </div>
+
+  <div class="item seafood"><a href="https://www.rpmrestaurants.com/rpm-seafood-chicago/">RPM Seafood</a>
+    <img src="rpm.jpg" width="100%">
+    <details>     
+    <summary>Loop</summary>     
+    $30 Lunch $60 Dinner </details> 
+  </div>
+
+  <div class="item seafood"><a href="https://www.cindysrooftop.com/">Cindy's</a>
+    <img src="cindy's.jpg" width="100%">
+    <details>     
+    <summary>Loop</summary>     
+    $30 Lunch </details> 
+  </div>
+
+  <div class="item seafood"><a href="https://www.lurefishbar.com/">Lure Fishbar</a>
+    <img src="lure fishbar.jpg" width="100%">
+    <details>     
+    <summary>Streeterville</summary>     
+    $30 Lunch $60 Dinner </details> 
+  </div>
+
+
+  <script>
+    function filter(cat) {
+      let items = document.querySelectorAll('.item');
+      items.forEach(item => {
+        if (cat === 'all' || item.classList.contains(cat)) {
+          item.classList.remove('hidden');
+        } else {
+          item.classList.add('hidden');
+        }
+      });
+    }
+  </script>
+</body>
+</html>
